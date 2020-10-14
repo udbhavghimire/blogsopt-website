@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +15,10 @@
 .aboutphoto{
     text-align:right;
 }
-
+.borderr{
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
 .btn-grad {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)}
 .btn-grad {
    margin: 10px;
@@ -35,6 +41,49 @@
  .projects{
      padding-top: 100px;
  }
+.teamphoto{
+    width: 100%;
+    height: 50vh;
+}
 .blogs{
     padding-top: 80px;
+}
+.mybtn{
+    color: white;
+    background-color: #060d33;
+    padding: 10px;
+}
+.mybtn:hover{
+    color: white;
+    background-color: #03092bd2;
+}
+.mybtn2{
+    padding: 10px;
+    color: #060d33;
+    border: 1px solid #060d33;
+}
+.mybtn2:hover{
+    color: #ffffff;
+    background-color: #060d33;
+    border: 1px solid #060d33;
+}
+.controll{
+    padding: 20px;
+    border: none;
+}
+.controll:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: rgb(2, 2, 51);
+}
+.footer-bottom{
+    color: rgb(255, 255, 255);
+}
+.bg-mine{
+    background-color: #060d33;
+}
+@media(max-width:700px){
+    .just{
+        font-size: x-large;
+    }
 }
