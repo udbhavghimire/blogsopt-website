@@ -87,3 +87,10 @@
         font-size: x-large;
     }
 }
+.progress{
+    background-color: rgb(179, 175, 175);
+    height: 30px;
+}
+.aboutme-padding{
+    padding-top: 80px;
+}
